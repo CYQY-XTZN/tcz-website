@@ -9,7 +9,7 @@ body {
 section {
   display: flex;
   justify-content: center;
-  padding: 0;
+  padding: 16px 0;
 }
 
 section:nth-child(odd) {
