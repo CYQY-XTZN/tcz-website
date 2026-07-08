@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  padding: 64px 24px;
+}
+
+section:nth-child(odd) {
+  background: #0a0a0a;
+}
+
+section:nth-child(even) {
+  background: #161616;
+}
+
+section:not(:first-child) {
+  border-top: 1px solid #333;
+}
+
+img {
+  display: block;
+  width: 100%;
+  max-width: 1400px;
+  height: auto;
+}
